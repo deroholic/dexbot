@@ -75,7 +75,7 @@ func printHelp() (help string) {
 }
 
 func messageCreate(s *discordgo.Session, m *discordgo.MessageCreate) {
-	if m.GuildID != "" && m.ChannelID != config.Channel {
+	if len(config.Channel) > 0 && m.GuildID != "" && m.ChannelID != config.Channel {
 		return
 	}
 
