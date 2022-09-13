@@ -24,7 +24,7 @@ DeroDex Discord Bot
 }
 ```
 	Edit config.json and set "token" to your Discord bot's token & "owner" to your Discord handle.
-	If you want to confine the bot to a single channel (other than DM) set channel to the ChannelID.
+	If you want to confine the bot to a single channel (other than DM) set "channel" to the ChannelID.
 
 ### 4) Run:
 	$ ./dexbot
