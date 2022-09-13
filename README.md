@@ -10,7 +10,7 @@ DeroDex Discord Bot
 
 ### 2) Build:
 	$ cd dexbot
-	$ go get dexbot
+	$ go get
 	$ go build
 
 ### 3) Configure:
