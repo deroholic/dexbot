@@ -23,7 +23,7 @@ DeroDex Discord Bot
         "daemon": "dero-node-ca.mysrv.cloud:10102"
 }
 ```
-	Edit config.json and set token to your Discord bot's token & owner to your Discord handle.
+	Edit config.json and set "token" to your Discord bot's token & "owner" to your Discord handle.
 	If you want to confine the bot to a single channel (other than DM) set channel to the ChannelID.
 
 ### 4) Run:
